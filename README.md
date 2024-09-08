@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Sosan Shirzai
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  Blauw
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Responsive plane
  
 </details>
 
@@ -36,16 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Lucardi.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
-
+  Homepage van lucardi.nl
+  <img src="readme-images/Lucardi website homepage.png" width="375px" alt="Een overzicht van de homepage met artikelen die Lucardi verkoopt en wat promoties en aanraders ">
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- 
+  Artikelpagina van artikel op lucardi
+  <img src="readme-images/Lucardi artikelpage zonder informarmatie .png" width="375px" alt="De artikelpagina van stalen goldplated oorbellen">
+ <img src="readme-images/Lucardi artikel page met informatie.png" width="375px" alt="De artikelpagina van stalen goldplated oorbellen met alle artikelinformatie">
 </details>
 
 
@@ -57,7 +56,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik heb Safae haar website gecheckt met een screenreader op mijn macbook.
+  Haar website was die van pllaystation 5. De link naar de website: <a href= "https://www.playstation.com/nl-nl/ps5/"></a>
 
+  Ik heb hier mijn bevindingen in een lijst met bullets gezet:
+
+  De screenreader:
+
+  <ul>
+  <li> De screen reader werkt wel goed bij de navigatiebalk.
+  <li> Niet alle afbeeldingen of vectorshadden een extra tekst eronder. Dit zorgde voor veel verwarring waardoor ik alleen "Image.....Image......Image" te horen kreeg. Wel een pluspunt is dat de meeste afbeeldingen wel een alt tekstje hadden. Dus je wist over welke games het ging.
+  <li> Er is gelukkig een button met naar hoofdcontent gaan, zodat je niet de hele website af moet.
+  <li> Bij een video dat zich afspeelt is er een pauze button. Er wordt geen context gegeven over waar die pauze button is en de video zelf heeft ook geen uitleg.
+  <li> De meeste tekst was in het nederlands, maar werd voorgelezen in het engels. Dit maakt het onverstaanbaar en niet te begrijpen.
+  <li> Er is een slideshow met games en er werd maar 1 game opgenoemt, voor de rest las het de balkje voor als: "Button...........Button.............Button".
+  </ul>
+
+  Voor de rest hadden wij tijdens de les nog brillen opgedaan en een machine getest die schokjes gaf en je hetzelfde bibber handen gaf net als Parkinsons. 
+  Het was erg moeilijk om te lezen en en om iets op de zoekbalk te schrijven op de laptop.
+  Al in al, de ervaring was erg frustrerend. Nu begrijp ik waarom er meer aandacht moet komen voor toegankelijkheid. Ik vind het knap hoe mensen met een beperking het tot nu toe doen op het internet of uberhaupt met moderne technologie. Ik heb enorme respect voor deze mensen.
 </details>
 
 
