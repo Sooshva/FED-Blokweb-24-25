@@ -92,11 +92,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   <img src="readme-images/Breakdownschets van artikelpagina niet uitgeklapt.jpeg." width="375px" alt="breakdown schets van de artikel pagina zonder details">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  ### dynamisch deel (Review section): 
+  <img src="readme-images/Specifieke breakdown schets Review op artikelpagina.jpeg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  ### wellicht nog een dynamisch deel (Automatische slideshow): 
+  <img src="readme-images/Breakdownschets van artikelpagina niet uitgeklapt.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
