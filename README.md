@@ -110,7 +110,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Met het opstellen van een html-pagina ging het best prima. Ik was bij de artikel omschrijvingen wel in de war, want ik wist niet hoe ik de dl, dt tag moest toepassen om de uitklapmenu moest krijgen. Voor de rest, dit is iets voor mijzelf om mee te nemen voor de rest van mijn projecten ooit: download de foto's gelijk!!! Mijn website is snel verandert van acties, dus ik zocht met moeite alle structuur en foto's op via mijn github website screenshot.
+
+<img src="readme-images/HTML-1-Details-Summary-vb.png.jpeg" width="375px" alt="Schets van de uitleg over de slideshow toepassing in website">
 
 
   ### Agenda voor meeting
@@ -131,7 +133,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Nog aandacht besteden aan de H1, H2 en H3's hoe die gebruikt wordt. Want er word van de een naar de ander gesprongen, denk er goed over na.
   - Slideshow kan simpel met flexbox etc....
 
-<img src="readme-images/Schets-uitleg-slideshow.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="readme-images/Schets-uitleg-slideshow.jpeg" width="375px" alt="Schets van de uitleg over de slideshow toepassing in website">
 </details>
 
 
