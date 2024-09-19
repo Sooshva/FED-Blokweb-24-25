@@ -118,19 +118,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1: Sosan      | student 2: Demi          | student 3: Chiara    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | HTML slideshow bespreken  | Hoe zet je een button over de image             | Classes speciferen, hoe en wanneer?    | en dan ik dat    |
+  | Details, dt en dd tags toepassing in code | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De details and summary tags zijn goed toegepast op de code, je hoeft het niet apart te stylen om die effect te krijgen.
+  - De nav mag in de header. De header tag kwam er niet voor. Ook kan er ul en li's gebruikt worden.
+  - Nog aandacht besteden aan de H1, H2 en H3's hoe die gebruikt wordt. Want er word van de een naar de ander gesprongen, denk er goed over na.
+  - Slideshow kan simpel met flexbox etc....
 
+<img src="readme-images/Schets-uitleg-slideshow.jpeg" width="375px" alt="breakdown van nog een dynamisch deel">
 </details>
 
 
