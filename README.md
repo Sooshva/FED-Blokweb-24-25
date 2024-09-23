@@ -133,6 +133,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Nog aandacht besteden aan de H1, H2 en H3's hoe die gebruikt wordt. Want er word van de een naar de ander gesprongen, denk er goed over na.
   - Slideshow kan simpel met flexbox etc....
 
+  Bronnen gebruikt: Bron 1.
+
 <img src="readme-images/Schets-uitleg-slideshow.jpeg" width="375px" alt="Schets van de uitleg over de slideshow toepassing in website">
 </details>
 
@@ -154,8 +156,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | student 1      | student 2          | student 3    | student 4        |
   | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+  | Html structuur  | en dit             | en ik dit    | en dan ik dat    |
+  | aanpak welke namaken en css | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
 
@@ -254,7 +256,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. W3Schools.com. (12-9-2024). https://www.w3schools.com/tags/tag_dd.asp
   2. bron 2
   3. ...
 
