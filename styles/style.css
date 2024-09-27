@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -15,12 +17,19 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-header-text: #ffffff;
+	--color-background: #eee;
+	--color-purple-banner: #e5d8fd;
+	--color-deal-banner: gold;
+	--article-deal-price: #56285d;
+	--article-crossed-out-price: rgb(18 18 18 0.5);
+	--button-font-color: white;
+	--button-background-color: #381e46;
+	--button-font-color-disabled: rgb(56 30 70 0.5);
+	--border-radius: 0.5em;
+	--font-family: "Open Sans", Helvetica, Arial;
 }
-
-
-
 
 
 /****************/
@@ -29,3 +38,168 @@
 
 /* jouw code */
 
+body {
+	font-family: var(--font-family);
+	margin: 0;
+	background-color: rgb(255, 255, 255);
+	color: var(--general-color);
+}
+
+#paarse-banner ul {
+	align-items: center;
+	background-color: rgb(229, 216, 253);
+	display: flex;
+	font-size: 0.75em;
+	font-weight: 400;
+	height: 3.25em;
+	justify-content: center;
+	line-height: 1.2em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-top: 0em;
+	padding-left: 3em;
+	padding-right: 3em;
+	list-style: none;
+}
+
+#Gele-Banner {
+	background-color: var(--color-deal-banner);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding-right: 3em;
+	padding-left: 3em;
+}
+
+#Gele-Banner a {
+	position: relative;
+	text-decoration: underline;
+	margin-left: 0.5em;
+}
+
+#Gele-Banner a img {
+	margin: 0;
+	cursor: pointer;
+}
+
+/******************************************************/
+/* styling voor de small-screen versie van de website */
+/******************************************************/
+
+/*************/
+/* DE HEADER */
+/*************/
+header {
+    line-height: 1.75em;
+    /* border-style: solid; */
+    /* border-color: var(--menu-border); */
+}
+
+
+/* alle links in de header */
+header a {
+    padding: .5em 0;
+    color: var(--general-color);
+    text-decoration: none;
+}
+
+header img {
+    padding: .5em 0;
+    color: var(--general-color);
+    text-decoration: none;
+}
+
+/********/
+/* MENU */
+/********/
+#Menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0.25em 3em 0.25em 3em;
+    background-color: rgba(255, 255, 255, 0.286);
+    border-bottom-style: solid;
+    border-color: white;
+    filter: brightness(0) invert(1);
+    transition: 0.25s ease-in;
+}
+
+#Menu:hover{
+    filter:none;
+    transition: 0.25s ease-out;
+}
+
+#Menu button {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: transparent;
+    width: 0%
+}
+
+
+#Menu li:nth-of-type(1) {
+    margin: 0;
+    position: relative;
+    right: 3em;
+}
+
+#Menu li:nth-of-type(2) {
+    margin: 0;
+    position: relative;
+    left: 6em;
+}
+
+#Menu li:nth-of-type(3) {
+    margin: 0;
+    position: relative;
+    left: 11em;
+    padding-right: 0.75em;
+    padding-left:0.75em;
+    border-radius: 50%;
+}
+
+#Menu li:nth-of-type(3):hover {
+  background-color: rgba(0, 0, 0, 0.448);
+}
+
+#Menu li:nth-of-type(4) {
+    margin: 0;
+    position: relative;
+    left: 7em;
+    padding-right: 0.75em;
+    padding-left:0.75em;
+    border-radius: 50%;
+}
+
+#Menu li:nth-of-type(4):hover {
+    background-color: rgba(0, 0, 0, 0.448);
+  }
+
+
+#Menu li:nth-of-type(5) {
+    margin: 0;
+    position: relative;
+    left: 3em;
+    padding-right: 0.75em;
+    padding-left:0.75em;
+    border-radius: 50%;
+}
+
+#Menu li:nth-of-type(5):hover {
+    background-color: rgba(0, 0, 0, 0.448);
+  }
+
+  /********/
+/* HAMBURGER */
+/********/
+
+#Hamburger{
+    border-style: solid;
+    border-color: rgb(255, 0, 191);
+    list-style-type: none;
+}
