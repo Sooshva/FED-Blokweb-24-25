@@ -257,7 +257,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. W3Schools.com. (12-9-2024). https://www.w3schools.com/tags/tag_dd.asp
-  2. bron 2
-  3. ...
+  2. Hmaburger menu website: Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., Repo, S., . . . Repo, S. (n.d.). Hamburger Menu Vector SVG Icon - SVG Repo. SVG Repo. https://www.svgrepo.com/svg/312300/hamburger-menu
+  3. https://www.w3schools.com/tags/ref_pxtoemconversion.asp
 
 </details>
