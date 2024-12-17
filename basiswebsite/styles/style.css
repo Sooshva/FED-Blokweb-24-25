@@ -1,0 +1,201 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+  --color-text: #111;
+  --color-background: #ffffff;
+  --color-purple-banner: #e5d8fd;
+  --color-deal-banner: gold;
+  --button-font-color: white;
+  --button-background-color: #381e46;
+  --font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/**********************/
+/* BASISSTIJLEN */
+/**********************/
+body,
+html {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-family);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**********************/
+/* BANNER */
+/**********************/
+
+#paarse-banner ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-purple-banner);
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: 3.5em;
+  padding: 0 1em;
+  position: relative;
+  max-width: 100%;
+  height: 3.5em;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#paarse-banner li {
+  display: none;
+  justify-content: space;
+  align-items: center;
+  color: var(--color-text);
+  font-size: 0.8em;
+  font-weight: 400;
+  grid-column-end: auto;
+  grid-column-start: 1;
+  line-height: 1.125em;
+  list-style: none;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  z-index: 2;
+  position: absolute;
+}
+
+#paarse-banner li.active {
+  display: flex;
+  opacity: 1;
+  z-index: 1;
+}
+
+#paarse-banner img {
+  margin-right: 0.5em;
+  max-height: 0.8em;
+}
+
+/**********************/
+/* MENU */
+/**********************/
+
+#Main_Menu {
+  display: flex;
+  position:absolute;
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-color: #00000096;
+  border-bottom-width: 0.01em;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: auto;
+  padding-top:1em;
+  padding-bottom:1.5em;
+  padding-left:1em;
+  padding-right:1em;
+  margin-top: 1em;
+  z-index:1;
+  width:100%;
+  height:2em;
+  background: rgba(0, 0, 0, 0);
+  filter:invert(1);
+}
+
+#Main_Menu button img {
+  max-width: 50%;
+}
+
+#Main_Menu button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#Main_Menu li:nth-of-type(1) {
+  position: relative;
+  right: 1em;
+}
+
+#Main_Menu li:nth-of-type(2) {
+  position: relative;
+  justify-content: center;
+  left: 3.125em;
+}
+
+#Main_Menu li:nth-of-type(2) img {
+  max-width: 75%;
+}
+
+#Main_Menu li:nth-of-type(3) {
+  position: relative;
+  left: 2.25em;
+}
+
+#Main_Menu li:nth-of-type(4) {
+  position: relative;
+  left: 1.25em;
+}
+
+#Main_Menu li:nth-of-type(5) {
+  position: relative;
+  left: 0.25em;
+}
+
+/* #Main_Menu :hover{
+  border-bottom: none;
+  filter:grey-scale(100%);
+} */
+
+/********/
+/* HAMBURGER */
+/********/
+
+/**********************/
+/* HEADER */
+/**********************/
+
+#Header {
+  list-style: none;
+  position: relative;
+  width: 23.4375em;
+  height:33.349625em;
+  
+}
+
+#Header img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(2);
+}
+
+#Header p:first-of-type {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 10em;
+}
+
+#Header p:last-of-type {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 2em;
+  font-size: 2em;
+  text-transform: bold;
+  font-weight: 20em;
+  line-height: 1.5em;
+  
+}
